@@ -272,21 +272,3 @@ To build:
 
 This will create the files `o/testclient`, `o/keyless` after downloading and
 building OpenSSL and libuv.
-
-To test:
-
-    make test
-
-This runs the `testclient` against the `keyless` server using test
-certificates and keys provided in the repository.
-
-There is also a short version of the test suite that can be used to test that
-the keyless server works (at all!):
-
-    make test-short
-
-# License
-
-See the LICENSE file for details. Note: the license for this project is not
-'open source' as described in the [Open Source
-Definition](http://opensource.org/osd).
